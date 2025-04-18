@@ -9,6 +9,9 @@ import Event from './component/Event'
 import Counter from './component/Counter'
 import ShowProduct from './component/ShowProduct'
 import FilterProduct from './component/FilterProduct'
+import Fetch_data from './component/Fetch_data'
+import Form from './component/Form'
+import Multiple_Input_Handling from './component/Multiple_Input_Handling'
 
 function App() {
   return (
@@ -41,7 +44,13 @@ function App() {
       
       {/* <ShowProduct/> */}
 
-      <FilterProduct/>
+      {/* <FilterProduct/> */}
+
+      {/* <Fetch_data/> */}
+     
+      {/* <Form/> */}
+
+        <Multiple_Input_Handling/>      
     </>
   )
 }
